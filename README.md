@@ -1,10 +1,10 @@
 # script-setup
 
-This template should help get you started developing with Vue 3 in Vite.
+Why script-setup is awesome. Side-by-side comparison with Vue 2's Options API. Plus some dad jokes thrown in there b/c #yolo.
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+[VSCode](https://code.visualstudio.com/).
 
 ## Customize configuration
 
