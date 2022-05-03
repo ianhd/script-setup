@@ -1,15 +1,14 @@
 <script setup>
 import JokeOptionsApi from '@/components/JokeOptionsApi.vue'
-// import JokeCompositionApi from '@/components/JokeCompositionApi.vue'
+import JokeCompositionApi from '@/components/JokeCompositionApi.vue'
 </script>
 
 <template>
     <div class="img"><img class="lol" src="./assets/lol.svg" /></div>
     <div class="cols">
         <JokeOptionsApi />
-        <JokeOptionsApi />
+        <JokeCompositionApi />
     </div>
-    <!--<JokeCompositionApi /> -->
 </template>
 
 <style>

@@ -1,5 +1,6 @@
 <script>
-import jokes from "@/assets/jokes.json";
+import jokes from "@/assets/jokes.json"
+import MyConfetti from '@/components/MyConfetti.vue'
 
 export default {
     data() {
@@ -7,7 +8,8 @@ export default {
             jokeIdx: 0,
             joke: ``,
         };
-    },
+    },   
+    components: { MyConfetti },
     methods: {
         refresh() {
             this.jokeIdx++
@@ -23,14 +25,17 @@ export default {
         }
     },
     mounted() {
-        this.joke = jokes[this.jokeIdx];
+        this.joke = jokes[this.jokeIdx]
     },
 };
 </script>
 
 <template>
     <div>
-        <div v-html="jokeWithLineBreaks"></div>
-        <button @click.prevent="refresh">Refresh</button>
+        <div v-html="jokeWithLineBreaks" class="j"></div>
+        <div class="d-flex">
+            <button @click.prevent="refresh">Refresh</button>
+            <MyConfetti class="ml-auto"></MyConfetti>
+        </div>
     </div>
 </template>

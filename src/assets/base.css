@@ -3,3 +3,7 @@ body { color: white; font-size: 22px; }
 .img { text-align: center; }
 img.lol { width: 125px; height: 125px; }
 button { outline: none; border: none; padding: 10px; margin-top:20px; font-size: 20px; }
+.d-flex { display: flex; }
+.ml-auto { margin-left: auto;}
+.mr-auto { margin-right: auto; }
+.j { min-height: 230px; }
